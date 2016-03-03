@@ -1,0 +1,54 @@
+[
+   {
+      "$id": 1,
+      "name":"Item 1",
+      "type" : "views/listElement.html",
+      "column": 0      
+   },
+   {
+      "$id": 2,
+      "name":"Item 2",
+      "type" : "views/listElement.html",
+      "column": 1
+   },
+   {
+      "$id": 3,
+      "name":"Item 3",
+      "type" : "views/listElement.html",
+      "column": 3
+   },
+   {
+      "$id": 4,
+      "name":"Item 4",
+      "type" : "views/listElement.html",
+      "column": 4
+   },
+   {
+      "$id": 5,
+      "name":"Item 5",
+      "type" : "views/listElement.html",
+      "column": 4
+   },
+   {
+      "$id": 6,
+      "name":"Item 6",
+      "type" : "views/listElement.html",
+      "column": 1
+   },
+   {
+      "$id": 7,
+      "name":"Item 7",
+      "type" : "views/listElement.html",
+      "column": 1
+   },
+   {
+      "$id": 8,
+      "name":"Item 8",
+      "type" : "views/listElement.html",
+      "column": 2
+   }
+
+   
+]
+   
+

@@ -1,0 +1,139 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+  height: 100%;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  border-radius: 10px;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.list-object {
+  width: 200px; 
+  height: 60px; 
+  background-color: #15B515; 
+  text-align: center; 
+  margin-right: auto; 
+  margin-left: auto;
+  border-radius: 30px;  
+}
+
+.list-object h3 {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-weight: bold;
+}
+
+.titulo {
+  position: relative;
+  top: 65%;
+  transform: translateY(-50%);
+}
+
+%content {
+  font-size: 32px;
+  text-align: center;
+  margin: 0 5px;
+}
+.bin {
+  @extend %content;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+  /*min-height: 150px;
+  min-width: 150px;
+  float: left;
+  border: 1px solid red;
+  padding: 20px;*/
+}
+.item {
+  @extend %content;
+  padding: 5px;
+  margin: 5px;
+  transition: all 0.2s ease;
+}
+
+.drag {
+  opacity: 0.5;
+}
+.over {
+  background: #b5b5b5;
+}

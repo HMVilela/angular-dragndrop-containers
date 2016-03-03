@@ -1,0 +1,7 @@
+<div class="col-lg-2">
+  <div class="jumbotron">
+    <div ng-repeat="obj in container" ng-init="Content=obj.Content">
+      <ng-include src="obj.type"></ng-include>
+    </div>
+  </div>
+</div>
